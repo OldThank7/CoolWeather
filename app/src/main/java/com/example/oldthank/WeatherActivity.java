@@ -116,7 +116,7 @@ public class WeatherActivity extends AppCompatActivity {
      * 加载必应每日一图
      * */
     private void loadBingPic() {
-        String requestBingPic = "https://api.dujin.org/bing/1366.php";
+        String requestBingPic = "httP://guolin.tech/api/bing_pic";
         HttpUtil.sendOkHttpRequest(requestBingPic, new Callback() {
             @Override
             public void onFailure(Call call, IOException e) {
